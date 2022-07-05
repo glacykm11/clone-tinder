@@ -19,13 +19,13 @@ body {
     padding: 10px 0;
 }
 
-.navbar img{
+.navbar i {
     font-size: 1.5rem;
     color: #dadfe6
 }
 
 /* Pega o primeiro filho (img) da classe navbar */
-.navbar img:nth-child(1) {
+.navbar i:nth-child(1) {
     color: #fe466d;
 }
 /* calc() retira a navbar e ocupa apenas o restante */
@@ -76,6 +76,56 @@ body {
     line-height: 1.7rem;
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.action {
+    background: #fff;
+    box-shadow: 0 2px 6px 0 rgba(112, 125, 134, 0.14);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.actions .action:nth-child(1) {
+    color: #fd5068;
+}
+
+.actions .action:nth-child(2) {
+    margin: 0 1rem;
+    color: #2db1ff;
+    height: 48px;
+    width: 48px;
+    font-size: 1.5rem;
+}
+
+.actions .action:nth-child(3) {
+    color: #1be4a1;
+}
+
+/* Desktop view */
+@media(min-width: 1025px) {
+    .photo {
+        width: 367px;
+        height: 684px;
+    }
+
+    .navbar {
+        width: 400px;
+        margin: auto;
+    }
 }
 
 .icones {
