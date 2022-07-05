@@ -96,7 +96,12 @@ body {
     align-items: center;
     border-radius: 50%;
     font-size: 1.5rem;
+    transition: transform 500ms ease;
+}
+
+.action:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .actions .action:nth-child(1) {
