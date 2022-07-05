@@ -8,3 +8,7 @@ Projeto de página estática de clone do tinder.
 
 - HTML
 - CSS
+
+## Link para visualização 
+
+![](clone-tinder-xi.vercel.app)
