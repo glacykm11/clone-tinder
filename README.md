@@ -11,4 +11,4 @@ Projeto de página estática de clone do tinder.
 
 ## Link para visualização 
 
-![](clone-tinder-xi.vercel.app)
+[clone-tinder-xi.vercel.app](https://clone-tinder-xi.vercel.app/)
